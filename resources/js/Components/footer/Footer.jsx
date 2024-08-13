@@ -70,14 +70,14 @@ function Footer() {
                                     Useful Links
                                 </span>
                                 <ul className="list-unstyled">
-                                    <li>
+                                    {/* <li>
                                         <Link
                                             href="/about"
                                             className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                                         >
                                             About us
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link
                                             href="/contact"
@@ -88,7 +88,7 @@ function Footer() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="w-full lg:w-4/12 px-4">
+                            {/* <div className="w-full lg:w-4/12 px-4">
                                 <ul className="list-unstyled">
                                     <li>
                                         <a
@@ -115,7 +115,7 @@ function Footer() {
                                         </Link>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

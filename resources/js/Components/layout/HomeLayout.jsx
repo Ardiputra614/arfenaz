@@ -10,9 +10,8 @@ const HomeLayout = ({ children }) => {
     }, []);
     return (
         <>
-            <div className="sm:hidden">
-                <TopNav />
-            </div>
+            <TopNav />
+
             <NavbarPage />
             <div>{children}</div>
             <Footer />

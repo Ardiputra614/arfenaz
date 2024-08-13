@@ -128,18 +128,34 @@ const Services = () => (
                                     <path
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
-                                        d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z"
+                                        d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
                                     />
                                 </svg>
                             </div>
                             <h6 className="text-xl font-semibold">
-                                Rangka Kerja
+                                Website berbasis coding
                             </h6>
-                            <p className="mt-2 mb-4">
-                                Kami memiliki tim profesional yang siap
-                                mengerjakan projek sesuai keinginan pelanggan,
-                                riset, desain, coding, & testing
+                            <p className="mt-2 mb-4 text-left">
+                                Kami menyediakan layanan pembuatan website
+                                dengan coding manual dengan berbagai produk
+                                seperti:
+                                <ul>
+                                    <li>
+                                        1. website Penjualan(Point Of Sales)
+                                    </li>
+                                    <li>2. Blog atau Website Berita</li>
+                                    <li>3. Portfolio Online</li>
+                                    <li>4. Profil Perusahaan</li>
+                                    <li>5. Restoran</li>
+                                </ul>
                             </p>
+                            <a
+                                href="https://wa.me/6287864705663?text=Pesan%20Website%20berbasis%20Coding"
+                                target="_blank"
+                                className="bg-blue-500 text-white w-full p-3"
+                            >
+                                Pesan website coding
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -159,18 +175,26 @@ const Services = () => (
                                     <path
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
-                                        d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                                        d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
                                     />
                                 </svg>
                             </div>
                             <h6 className="text-xl font-semibold">
-                                Gratis revisi
+                                Website berbasis wordpress
                             </h6>
                             <p className="mt-2 mb-4">
-                                Kami memberikan 2 kali revisi gratis kepada
-                                pelanggan yang minta adanya perubahan entah
-                                fitur ataupun desain.
+                                Kami menyediakan layanan pembuatan website
+                                dengan bantuan pihak ketiga yaitu wordpress
+                                Produk yang di sediakan yaitu Portfolio Online
+                                dan Profil Perusahaan
                             </p>
+                            <a
+                                href="https://wa.me/6287864705663?text=Pesan%20Website%20Wordpress"
+                                target="_blank"
+                                className="bg-blue-500 text-white w-full p-3"
+                            >
+                                Pesan Website Wordpress
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -190,16 +214,30 @@ const Services = () => (
                                     <path
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
-                                        d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75"
+                                        d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10"
                                     />
                                 </svg>
                             </div>
-                            <h6 className="text-xl font-semibold">Solusi</h6>
-                            <p className="mt-2 mb-4">
-                                Memberikan solusi terbaik atas pertanyaan anda
-                                tentang projek yang dikerjakan sesuai keinginan
-                                anda
+                            <h6 className="text-xl font-semibold">
+                                Desain Grafis
+                            </h6>
+                            <p className="mt-2 mb-4 text-left">
+                                Kami menyediakan jasa desain grafis dengan
+                                berbagai jenis desan yaitu:
+                                <ul>
+                                    <li>1. Banner</li>
+                                    <li>2. Logo</li>
+                                    <li>3. Desain baju</li>
+                                    <li>4. Stiker</li>
+                                </ul>
                             </p>
+                            <a
+                                href="https://wa.me/6287864705663?text=Pesan%20Desain"
+                                target="_blank"
+                                className="bg-blue-500 text-white w-full p-3"
+                            >
+                                Pesan Desain
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -695,91 +733,6 @@ const Finisher = () => (
                     <p className="mt-2 mb-4 text-gray-500">
                         Peluncuran yang sesuai dengan waktu yang ditentukan
                     </p>
-                </div>
-            </div>
-        </div>
-    </section>
-);
-
-const Contact = ({ form, setForm, handleSubmit, handleChange }) => (
-    <section className="relative block py-24 lg:pt-0 bg-gray-900">
-        <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-                <div className="w-full lg:w-6/12 px-4">
-                    <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
-                        <div className="flex-auto p-5 lg:p-10">
-                            <h4 className="text-2xl font-semibold">
-                                Want to work with us?
-                            </h4>
-                            <p className="leading-relaxed mt-1 mb-4 text-gray-600">
-                                Complete this form and we will get back to you
-                                in 24 hours.
-                            </p>
-                            <div className="relative w-full mb-3 mt-8">
-                                <label
-                                    className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                    htmlFor="full-name"
-                                >
-                                    Full Name
-                                </label>
-                                <input
-                                    value={form.name}
-                                    onChange={handleChange}
-                                    name="name"
-                                    type="text"
-                                    className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                                    placeholder="Full Name"
-                                    style={{ transition: "all .15s ease" }}
-                                />
-                            </div>
-
-                            <div className="relative w-full mb-3">
-                                <label
-                                    className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                    htmlFor="email"
-                                >
-                                    Email
-                                </label>
-                                <input
-                                    type="email"
-                                    value={form.email}
-                                    onChange={handleChange}
-                                    name="email"
-                                    className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                                    placeholder="Email"
-                                    style={{ transition: "all .15s ease" }}
-                                />
-                            </div>
-
-                            <div className="relative w-full mb-3">
-                                <label
-                                    className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                    htmlFor="message"
-                                >
-                                    Message
-                                </label>
-                                <textarea
-                                    value={form.message}
-                                    onChange={handleChange}
-                                    name="message"
-                                    rows={4}
-                                    cols={80}
-                                    className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                                    placeholder="Type a message..."
-                                />
-                            </div>
-                            <div className="text-center mt-6">
-                                <button
-                                    onClick={handleSubmit}
-                                    className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                                    type="button"
-                                    style={{ transition: "all .15s ease" }}
-                                >
-                                    Send Message
-                                </button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

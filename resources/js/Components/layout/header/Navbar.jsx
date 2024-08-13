@@ -27,9 +27,9 @@ export function NavbarPage() {
                 <NavbarLink href="/" active>
                     Home
                 </NavbarLink>
-                <NavbarLink>
+                {/* <NavbarLink>
                     <Link href="/about">About</Link>
-                </NavbarLink>
+                </NavbarLink> */}
                 {/* <NavbarLink href="#">Services</NavbarLink>
                 <NavbarLink href="#">Pricing</NavbarLink> */}
                 <NavbarLink>
